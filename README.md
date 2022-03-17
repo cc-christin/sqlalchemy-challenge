@@ -1,5 +1,5 @@
 # sqlalchemy - Surfs Up
-![climate_starter.ipynb](climate_starter.ipynb)
+[climate_starter.ipynb](climate_starter.ipynb)
 
 ## Step 1 - Climate Analysis and Exploration
 Use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
@@ -16,7 +16,7 @@ Close out your session at the end of your notebook.
 
 ### Precipitation Analysis
 
-[Max Precipitation](https://github.com/christin-c-sok/sqlalchemy-challenge/blob/main/Images/Max%20Precipitation.png)
+![Max Precipitation](https://github.com/christin-c-sok/sqlalchemy-challenge/blob/main/Images/Max%20Precipitation.png)
 
 Start by finding the most recent date in the data set.
 

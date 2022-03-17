@@ -54,6 +54,7 @@ Design a query to calculate the total number of stations in the dataset.
 
 ## Step 2 - Climate App
 from flask import Flask, jsonify
+
 ### Routes
 "List all routes that are available:"
        "/api/v1.0/precipitation"
@@ -61,3 +62,7 @@ from flask import Flask, jsonify
        "/api/v1.0/tobs"
        "/api/v1.0/<start>"
        "/api/v1.0/<start>/<end>"
+ 
+ tavg
+ tmax
+ tmin

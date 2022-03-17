@@ -56,13 +56,17 @@ Design a query to calculate the total number of stations in the dataset.
 from flask import Flask, jsonify
 
 ### Routes
-"List all routes that are available:"/n
-       "/api/v1.0/precipitation"/n
-       "/api/v1.0/stations"/n
-       "/api/v1.0/tobs"/n
-       "/api/v1.0/<start>"/n
-       "/api/v1.0/<start>/<end>"/n
+"List all routes that are available:"
+
+
+"/api/v1.0/precipitation"
+"/api/v1.0/stations"
+"/api/v1.0/tobs"
+"/api/v1.0/<start>"
+"/api/v1.0/<start>/<end>"
  
- tavg /n
- tmax /n
- tmin /n
+ tavg 
+ 
+ tmax 
+ 
+ tmin

@@ -16,6 +16,8 @@ Close out your session at the end of your notebook.
 
 ### Precipitation Analysis
 
+[Max Precipitation](https://github.com/christin-c-sok/sqlalchemy-challenge/blob/main/Images/Max%20Precipitation.png)
+
 Start by finding the most recent date in the data set.
 
 Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. **Note** you do not pass in the date as a variable to your query.
@@ -31,6 +33,9 @@ Plot the results using the DataFrame `plot` method.
 Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
+
+[Station - Temperature Observations](https://github.com/christin-c-sok/sqlalchemy-challenge/blob/main/Images/Temperature%20Observations.png)
+
 
 Design a query to calculate the total number of stations in the dataset.
 

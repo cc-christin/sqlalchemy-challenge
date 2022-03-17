@@ -1,5 +1,5 @@
 # sqlalchemy - Surfs Up
-[](climate_starter.ipynb)
+[link](climate_starter.ipynb)
 
 ## Step 1 - Climate Analysis and Exploration
 ### Precipitation Analysis

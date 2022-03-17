@@ -32,6 +32,32 @@ Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
 
+Design a query to calculate the total number of stations in the dataset.
+
+* Design a query to find the most active stations (i.e. which stations have the most rows?).
+
+  * List the stations and observation counts in descending order.
+
+  * Which station id has the highest number of observations?
+
+  * Using the most active station id, calculate the lowest, highest, and average temperature.
+
+ Design a query to retrieve the last 12 months of temperature observation data (TOBS).
+
+  * Filter by the station with the highest number of observations.
+
+  * Query the last 12 months of temperature observation data for this station.
+
+  * Plot the results as a histogram with `bins=12`.
+  
+  * Close out your session.
 
 ## Step 2 - Climate App
+from flask import Flask, jsonify
 ### Routes
+"List all routes that are available:"
+       "/api/v1.0/precipitation"
+       "/api/v1.0/stations"
+       "/api/v1.0/tobs"
+       "/api/v1.0/<start>"
+       "/api/v1.0/<start>/<end>"

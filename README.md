@@ -65,4 +65,4 @@ from flask import Flask, jsonify
 * "/api/v1.0/<start>"
 * "/api/v1.0/<start>/<end>"
  
- *** tavg, tmax, tmin
+* tavg, tmax, tmin
